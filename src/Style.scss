@@ -1,0 +1,93 @@
+//Bootstrap
+$primary: #764AF1;
+$secondary: #9772FB;
+$light: #F2F2F2;
+$success: #F32424;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Variables
+/*Mobile*/
+:root{
+  
+}
+
+/*Tablet*/
+@media (min-width: 600px){
+  :root{
+    
+  }
+}
+
+/*Desktop*/
+@media (min-width: 768px){
+  :root{
+    
+  }
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("./assets/fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+
+body{
+  font-family: "montserrat";
+  
+}
+
+//Images
+.logo{
+  max-height: 90%;
+  max-width: 90%;
+}
+
+//Pane
+.v-pane{
+  height: 100%;
+}
+
+.h-pane{
+  width: 100%;
+}
+
+.pane{
+  @extend .v-pane;
+  @extend .h-pane;
+}
+
+@each $colorname, $color in $theme-colors {
+  .pane-#{$colorname} {
+    @extend .pane;
+    background-color: $color;
+  }
+}
+
+//Page
+.page{
+  width: 100vw;
+  height: 100vh;
+}
+
+@each $colorname, $color in $theme-colors {
+  .page-#{$colorname} {
+    @extend .page;
+    background-color: $color;
+  }
+}
+
+//Div
+.div-50{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.container-table{
+  display: table;
+  height: 100%;
+  width: 100%;
+}

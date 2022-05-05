@@ -1,0 +1,10 @@
+Libraries{
+    react-spring{
+        default,
+        parallax,
+    },
+    bootstrap,
+    react-bootstrap,
+    sass,
+    styled-components,
+}
