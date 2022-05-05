@@ -1,8 +1,8 @@
 //Bootstrap
-$primary: #764AF1;
-$secondary: #9772FB;
+$primary: #630A10;
+$secondary: #911F27;
 $light: #F2F2F2;
-$success: #F32424;
+$success: #FACE7F;
 
 @import '~bootstrap/scss/bootstrap.scss';
 
@@ -10,20 +10,6 @@ $success: #F32424;
 /*Mobile*/
 :root{
   
-}
-
-/*Tablet*/
-@media (min-width: 600px){
-  :root{
-    
-  }
-}
-
-/*Desktop*/
-@media (min-width: 768px){
-  :root{
-    
-  }
 }
 
 @font-face {
@@ -34,12 +20,6 @@ $success: #F32424;
 body{
   font-family: "montserrat";
   
-}
-
-//Images
-.logo{
-  max-height: 90%;
-  max-width: 90%;
 }
 
 //Pane
@@ -90,4 +70,32 @@ body{
   display: table;
   height: 100%;
   width: 100%;
+}
+
+.bg-logo{
+  background-image: url("./assets/images/background-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//Orientation
+@media only screen and (orientation:landscape) {
+  .hide-on-landscape {
+    display: none;
+  }
+
+  .hide-on-landscape *{
+    display: none;
+  }
+}
+
+@media only screen and (orientation:portrait) {
+  .hide-on-portrait {
+    display: none;
+  }
+
+  .hide-on-portrait *{
+    display: none;
+  }
 }

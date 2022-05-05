@@ -7,17 +7,17 @@ import Page from '../components/Page'
 function App() {
   return (
     <>
-        <Page theme='primary' page={0}>
+        <Page theme='light' page={0}>
             <Title/>
         </Page>
 
-        <Page theme='secondary' page={1}>
+        {/* <Page theme='primary' page={1}>
             <Functionalities/>
         </Page>
 
         <Page theme='light' page={2}>
             <Examples/>
-        </Page>
+        </Page> */}
     </>
   );
 }
