@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./PersonalKitchenClub/static/css/main.da8b14d0.css",
+    "main.js": "./PersonalKitchenClub/static/js/main.b36ef0f8.js",
+    "static/js/787.3f5be7dc.chunk.js": "./PersonalKitchenClub/static/js/787.3f5be7dc.chunk.js",
+    "static/media/background-logo.png": "./PersonalKitchenClub/static/media/background-logo.9b9cd519f7a9bf777667.png",
+    "static/media/Montserrat-Bold.ttf": "./PersonalKitchenClub/static/media/Montserrat-Bold.63fae500fdcf19ce83d4.ttf",
+    "static/media/logo.png": "./PersonalKitchenClub/static/media/logo.a9fefd12d673c6a612a1.png",
+    "index.html": "./PersonalKitchenClub/index.html",
+    "main.da8b14d0.css.map": "./PersonalKitchenClub/static/css/main.da8b14d0.css.map",
+    "main.b36ef0f8.js.map": "./PersonalKitchenClub/static/js/main.b36ef0f8.js.map",
+    "787.3f5be7dc.chunk.js.map": "./PersonalKitchenClub/static/js/787.3f5be7dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da8b14d0.css",
+    "static/js/main.b36ef0f8.js"
+  ]
+}
