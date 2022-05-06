@@ -1,24 +1,48 @@
 import React from 'react'
-import logo from '../../assets/images/logo.png';
+import FlipCard from '../../components/flipCard/FlipCard'
+
+const flipCards=[
+    {
+        "image":
+        <h1 className='text-light'>
+            Perú
+        </h1>,
+        "description":
+        <p className='w-100 text-center text-light'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        
+    },
+    {
+        "image":
+        <h1 className='text-light'>
+            Italia
+        </h1>,
+        "description":
+        <p className='w-100 text-center text-light'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+    },
+    {
+        "image":
+        <h1 className='text-light'>
+            Argentina
+        </h1>,
+        "description":
+        <p className='w-100 text-center text-light'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+    }
+]
 
 class Examples extends React.Component {
     render(){
-        var img_1 = require('../../assets/images/logo.png');
 
         return(
             <>
-                <div className='row justify-content-center'>
-                    {/* <div className='col d-flex justify-content-center'>
-                        <img src={logo} className='example' alt="logo" />
-                    </div>
-                    <div className='col d-flex justify-content-center'>
-                        <img src={logo} className='example' alt="logo" />
-                    </div>
-                    <div className='col d-flex justify-content-center'>
-                        <img src={logo} className='example' alt="logo" />
-                    </div> */}
-                </div>
-                
+                <FlipCard front={flipCards[0].image} frontClassName='bgimg-1' back={flipCards[0].description} backClassName='bg-secondary d-flex align-items-center'/>
+                <FlipCard front={flipCards[1].image} frontClassName='bgimg-2' back={flipCards[1].description} backClassName='bg-secondary d-flex align-items-center'/>
+                <FlipCard front={flipCards[2].image} frontClassName='bgimg-3' back={flipCards[2].description} backClassName='bg-secondary d-flex align-items-center'/>
             </>
         );
     }

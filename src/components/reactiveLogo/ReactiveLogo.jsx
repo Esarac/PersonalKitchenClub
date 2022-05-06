@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
 
-import "./styles.css";
+import "./style.css";
 
 import logo from '../../assets/images/logo.png'
 
