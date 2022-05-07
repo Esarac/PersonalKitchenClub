@@ -4,33 +4,39 @@ import FlipCard from '../../components/flipCard/FlipCard'
 const flipCards=[
     {
         "image":
-        <h1 className='text-light'>
-            Perú
-        </h1>,
+        <h3 className='w-50 text-truncate text-center text-light bg-primary border-success rounded'>
+            México
+        </h3>,
         "description":
         <p className='w-100 text-center text-light'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            “Reuniones como esta hay que repetirlas. Todos mis sobrinos estaban felices con la piñata y los sombreros.”
+            <br/>
+            ~Sebastian Ariza
         </p>
         
     },
     {
         "image":
-        <h1 className='text-light'>
-            Italia
-        </h1>,
+        <h3 className='w-50 text-truncate text-center text-light bg-primary border-success rounded'>
+            Brasil
+        </h3>,
         "description":
         <p className='w-100 text-center text-light'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            “La comida y el servicio estuvieron espectaculares. Definitivamente el mejor cumpleaños que he tenido.”
+            <br/>
+            ~Eduardo Giraldo
         </p>
     },
     {
         "image":
-        <h1 className='text-light'>
-            Argentina
-        </h1>,
+        <h3 className='w-50 text-truncate text-center text-light bg-primary border-success rounded'>
+            Irlanda
+        </h3>,
         "description":
         <p className='w-100 text-center text-light'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            “Organizando eventos empresariales son unos genios y para la comida unos artistas”
+            <br/>
+            ~Carlos Cadena
         </p>
     }
 ]
@@ -40,9 +46,9 @@ class Examples extends React.Component {
 
         return(
             <>
-                <FlipCard front={flipCards[0].image} frontClassName='bgimg-1' back={flipCards[0].description} backClassName='bg-secondary d-flex align-items-center'/>
-                <FlipCard front={flipCards[1].image} frontClassName='bgimg-2' back={flipCards[1].description} backClassName='bg-secondary d-flex align-items-center'/>
-                <FlipCard front={flipCards[2].image} frontClassName='bgimg-3' back={flipCards[2].description} backClassName='bg-secondary d-flex align-items-center'/>
+                <FlipCard front={flipCards[0].image} frontClassName='bgimg-1 border border-success rounded' back={flipCards[0].description} backClassName='bg-secondary d-flex align-items-center border border-success rounded'/>
+                <FlipCard front={flipCards[1].image} frontClassName='bgimg-2 border border-success rounded' back={flipCards[1].description} backClassName='bg-secondary d-flex align-items-center border border-success rounded'/>
+                <FlipCard front={flipCards[2].image} frontClassName='bgimg-3 border border-success rounded' back={flipCards[2].description} backClassName='bg-secondary d-flex align-items-center border border-success rounded'/>
             </>
         );
     }
