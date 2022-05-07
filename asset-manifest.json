@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/PersonalKitchenClub/static/css/main.67689766.css",
-    "main.js": "/PersonalKitchenClub/static/js/main.16d2fcc9.js",
+    "main.css": "/PersonalKitchenClub/static/css/main.77913b65.css",
+    "main.js": "/PersonalKitchenClub/static/js/main.1ed0248b.js",
     "static/js/787.3f5be7dc.chunk.js": "/PersonalKitchenClub/static/js/787.3f5be7dc.chunk.js",
     "static/media/img_1.jpg": "/PersonalKitchenClub/static/media/img_1.75ea7df36b503988a67d.jpg",
     "static/media/img_3.jpg": "/PersonalKitchenClub/static/media/img_3.bcfec44a34b2fcc276ad.jpg",
     "static/media/img_2.jpg": "/PersonalKitchenClub/static/media/img_2.821e1698d4fedb986696.jpg",
     "static/media/background-logo.png": "/PersonalKitchenClub/static/media/background-logo.9b9cd519f7a9bf777667.png",
+    "static/media/Pacifico-Regular.ttf": "/PersonalKitchenClub/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
     "static/media/Montserrat-Bold.ttf": "/PersonalKitchenClub/static/media/Montserrat-Bold.63fae500fdcf19ce83d4.ttf",
     "static/media/logo.png": "/PersonalKitchenClub/static/media/logo.a9fefd12d673c6a612a1.png",
     "index.html": "/PersonalKitchenClub/index.html",
-    "main.67689766.css.map": "/PersonalKitchenClub/static/css/main.67689766.css.map",
-    "main.16d2fcc9.js.map": "/PersonalKitchenClub/static/js/main.16d2fcc9.js.map",
+    "main.77913b65.css.map": "/PersonalKitchenClub/static/css/main.77913b65.css.map",
+    "main.1ed0248b.js.map": "/PersonalKitchenClub/static/js/main.1ed0248b.js.map",
     "787.3f5be7dc.chunk.js.map": "/PersonalKitchenClub/static/js/787.3f5be7dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67689766.css",
-    "static/js/main.16d2fcc9.js"
+    "static/css/main.77913b65.css",
+    "static/js/main.1ed0248b.js"
   ]
 }
