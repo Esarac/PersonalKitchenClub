@@ -16,9 +16,22 @@ $success: #FACE7F;
   src: url("./assets/fonts/Montserrat/static/Montserrat-Bold.ttf");
 }
 
+@font-face {
+  font-family: "pacifico";
+  src: url("./assets/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
 body{
   background-color: $light;
   font-family: "montserrat";
+}
+
+//Text
+.text-logo{
+  font-family: "pacifico";
+  color: $light;
+  text-shadow: 2px 0 0 $primary, -2px 0 0 $primary, 0 2px 0 $primary, 0 -2px 0 $primary, 1px 1px $primary, -1px -1px 0 $primary, 1px -1px 0 $primary, -1px 1px 0 $primary;
+  padding: 2%;
 }
 
 //Pane

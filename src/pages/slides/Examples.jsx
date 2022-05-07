@@ -4,9 +4,9 @@ import FlipCard from '../../components/flipCard/FlipCard'
 const flipCards=[
     {
         "image":
-        <h3 className='w-50 text-truncate text-center text-light bg-primary border-success rounded'>
+        <h2 className='text-truncate text-logo'>
             México
-        </h3>,
+        </h2>,
         "description":
         <p className='w-100 text-center text-light'>
             “Reuniones como esta hay que repetirlas. Todos mis sobrinos estaban felices con la piñata y los sombreros.”
@@ -17,9 +17,9 @@ const flipCards=[
     },
     {
         "image":
-        <h3 className='w-50 text-truncate text-center text-light bg-primary border-success rounded'>
+        <h2 className='text-truncate text-logo'>
             Brasil
-        </h3>,
+        </h2>,
         "description":
         <p className='w-100 text-center text-light'>
             “La comida y el servicio estuvieron espectaculares. Definitivamente el mejor cumpleaños que he tenido.”
@@ -29,9 +29,9 @@ const flipCards=[
     },
     {
         "image":
-        <h3 className='w-50 text-truncate text-center text-light bg-primary border-success rounded'>
+        <h2 className='text-truncate text-logo'>
             Irlanda
-        </h3>,
+        </h2>,
         "description":
         <p className='w-100 text-center text-light'>
             “Organizando eventos empresariales son unos genios y para la comida unos artistas”
