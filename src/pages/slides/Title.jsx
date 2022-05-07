@@ -14,7 +14,7 @@ class Title extends React.Component {
                     </div>
                     <h1 className='text-primary'>Personal Kitchen Club</h1>
                     <h3 className='text-secondary'>Trae el restaurante a tu casa</h3>
-                    <Button variant="secondary" size='lg' className='col-8 rounded-pill text-light' href="mailto:acosta57esteban@gmail.com">CONTÁCTANOS</Button>
+                    <Button variant="secondary" size='lg' className='col-8 rounded-pill text-light' href="mailto:ukitchenservice@gmail.com">CONTÁCTANOS</Button>
                 </div>
                 <div className='hide-on-portrait div-50 bgimg-logo justify-content-center'>
                     <ReactiveLogo/>
