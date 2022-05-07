@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalKitchenClub/static/css/main.67689766.css",
-    "main.js": "/PersonalKitchenClub/static/js/main.668056e9.js",
+    "main.js": "/PersonalKitchenClub/static/js/main.16d2fcc9.js",
     "static/js/787.3f5be7dc.chunk.js": "/PersonalKitchenClub/static/js/787.3f5be7dc.chunk.js",
     "static/media/img_1.jpg": "/PersonalKitchenClub/static/media/img_1.75ea7df36b503988a67d.jpg",
     "static/media/img_3.jpg": "/PersonalKitchenClub/static/media/img_3.bcfec44a34b2fcc276ad.jpg",
@@ -11,11 +11,11 @@
     "static/media/logo.png": "/PersonalKitchenClub/static/media/logo.a9fefd12d673c6a612a1.png",
     "index.html": "/PersonalKitchenClub/index.html",
     "main.67689766.css.map": "/PersonalKitchenClub/static/css/main.67689766.css.map",
-    "main.668056e9.js.map": "/PersonalKitchenClub/static/js/main.668056e9.js.map",
+    "main.16d2fcc9.js.map": "/PersonalKitchenClub/static/js/main.16d2fcc9.js.map",
     "787.3f5be7dc.chunk.js.map": "/PersonalKitchenClub/static/js/787.3f5be7dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67689766.css",
-    "static/js/main.668056e9.js"
+    "static/js/main.16d2fcc9.js"
   ]
 }
