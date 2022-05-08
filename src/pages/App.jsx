@@ -37,7 +37,7 @@ function App() {
             <p><small>
               © 2022 Personal Kitchen Club. All Rights Reserved
             </small></p>
-            <p><small>
+            <p className='text-right'><small>
               This website uses cookies in order to offer you the most relevant information.
             </small></p>
           </div>
