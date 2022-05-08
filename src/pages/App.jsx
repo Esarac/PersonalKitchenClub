@@ -33,7 +33,7 @@ function App() {
 
         <div className='footer text-light'>
           <p className='text-center h1 display-1'>
-            <a href='https://www.instagram.com/esaracgp/'>
+            <a href='https://www.instagram.com/yourpkservice/'>
               <FaInstagram className='text-light'/>
             </a>
           </p>
