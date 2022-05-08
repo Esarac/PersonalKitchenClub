@@ -10,10 +10,10 @@ import {FaInstagram} from 'react-icons/fa'
 
 function App() {
   useEffect(()=>{
-    ReactGa.initialize('G-4X9Z8VGM86');
+    ReactGa.initialize('G-D7T474ZFXW');
 
     //To report page view
-    ReactGa.pageview('/')
+    ReactGa.pageview('/PersonalKitchenClub')
   }, [])
 
   return (
