@@ -3,18 +3,15 @@ import Title from './slides/Title';
 import Examples from './slides/Examples'
 import Page from '../components/page/Page'
 
-import ReactGa from 'react-ga'
-import { useEffect } from 'react';
-
 import {FaInstagram} from 'react-icons/fa'
 
-function App() {
-  useEffect(()=>{
-    ReactGa.initialize('G-D7T474ZFXW');
+// import { useEffect } from 'react';
 
-    //To report page view
-    ReactGa.pageview('/PersonalKitchenClub')
-  }, [])
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-D7T474ZFXW";
+ReactGA.initialize(TRACKING_ID);
+
+function App() {
 
   return (
     <>
