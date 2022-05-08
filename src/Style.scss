@@ -68,6 +68,13 @@ body{
   }
 }
 
+//Footer
+.footer{
+  width: 100vw;
+  height: fit-content;
+  background-color: $secondary;
+}
+
 //Div
 .div-50{
   display: table-cell;
