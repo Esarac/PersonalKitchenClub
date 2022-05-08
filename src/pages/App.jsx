@@ -5,13 +5,17 @@ import Page from '../components/page/Page'
 
 import {FaInstagram} from 'react-icons/fa'
 
-// import { useEffect } from 'react';
+import { useEffect } from 'react';
 
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-D7T474ZFXW";
+const TRACKING_ID = "UA-228181512-1";
+
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <>

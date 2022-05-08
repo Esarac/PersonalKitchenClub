@@ -101,6 +101,7 @@ $images: (
 
 @each $image_name, $image_url in $images {
   .bgimg-#{$image_name} {
+    background-color: $secondary;
     background-image: $image_url;
     background-position: center;
     background-repeat: no-repeat;
